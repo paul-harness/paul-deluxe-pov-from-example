@@ -1,1 +1,2 @@
 image: <+artifact.image>
+replicas: <+pipeline.stages.deploy_deluxe_pov_app.spec.serviceConfig.output.variablesResult.replicas>
