@@ -18,7 +18,7 @@ spec:
         app: react-webapp
     spec:
       containers:
-      - image: index.docker.io/psuholet/deluxe-pov-image-from-example:latest
+      - image: {{.Values.image}}
         name: webapp
         imagePullPolicy: Always
         resources: {}
