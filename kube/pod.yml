@@ -4,7 +4,7 @@ metadata:
   name: webapp
 spec:
   containers:
-    - image: index.docker.io/psuholet/deluxe-pov-image-from-example:latest
+    - image: "<+artifact.image>"
       name: webapp
       imagePullPolicy: Always
       resources: {}
